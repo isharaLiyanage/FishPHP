@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 600px;
+    height: 800px;
+    background-color: aqua;
+    margin:  auto;
+    
+}
+.heading{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 105px;
+}
+#pImage{
+    display: block;
+    margin: 10px;
+    padding: 5px 400px 5px 5px ;
+
+}
+    
+#pPrice{
+    margin: 10px ;
+    padding: 5px 400px 5px 5px;
+    
+}
+    
+#pName{
+    margin: 10px ;
+    padding: 5px 400px 5px 5px;
+    
+}
+.lable{
+  
+    left: 0;
+}
+
+#customFile{
+  
+    margin: 10px ;
+    padding: 5px 400px 5px 5px;
+}
+.button button{
+    margin: 10px;
+    padding: 10px 275px 10px 275px;
+    background-color: brown;
+}
+.gopage{
+    margin: 10px;
+    background-color: rgb(64, 175, 175);
+    padding: 10px 270px 10px 27px;
+}
+.gopage a{
+   
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:600px)  {
+    .container{
+        width: 400px;
+        height: 800px;
+        
+    
+        
+    }
+
+    #pImage{
+       
+    
+        padding: 5px 100px 5px 5px ;
+    
+    }
+        
+    #pPrice{
+     
+        padding: 5px 100px 5px 5px;
+        
+    }
+        
+    #pName{
+    
+        padding: 5px 100px 5px 5px;
+        
+    }
+    .button button{
+        
+        padding: 10px 75px 10px 75px;
+        
+    }
+}
