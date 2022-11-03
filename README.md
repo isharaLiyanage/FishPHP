@@ -1,7 +1,5 @@
 # Simple php Project
 
-## What is the use of this Repo
-
 This Project is a Simple php Project 
 
 1. Add product 
